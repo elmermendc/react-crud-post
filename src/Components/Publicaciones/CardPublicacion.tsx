@@ -16,7 +16,7 @@ function CardPublicacion({ post, isIncluded }: PostProps) {
   
 
   const locActual = useLocation();
-  const locAactualF = locActual.pathname === "/favoritos";
+  const locAactualF = locActual.pathname === "/react-crud-post/favoritos";
 
   const postNuevo = useDispatch();
   const remFavorito = () => postNuevo(removeFavoritos(post));

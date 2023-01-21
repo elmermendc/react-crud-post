@@ -23,10 +23,11 @@ function App() {
     <div className="bg-green-700 min-h-screen">
       <BrowserRouter>
         <Navegacion />
+        
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="/react-crud-post/" element={<Inicio />} />
           <Route path="*" element={<>Error 404</>} />
-          <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/react-crud-post/favoritos" element={<Favoritos />} />
         </Routes>
       </BrowserRouter>
     </div>

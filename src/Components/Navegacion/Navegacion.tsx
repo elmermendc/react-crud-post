@@ -18,7 +18,7 @@ function Navegacion() {
     <nav className="sticky top-0 left-0 right-0 z-40 bg-gray-800 p-2.5 mb-1">
       <div className="flex flex-wrap items-center justify-between mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div>
-          <NavLink to="/">
+          <NavLink to="/react-crud-post/">
           <img
             src="/logoposts.png"
             className="h-8"
@@ -62,7 +62,7 @@ function Navegacion() {
             <li>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                to="/"
+                to="/react-crud-post/"
                 className="md:p-4 py-2 block text-gray-300 hover:bg-gray-700 hover:text-white px-3 rounded-md text-sm font-medium"
               >
                 Inicio
@@ -72,7 +72,7 @@ function Navegacion() {
             <li>
               <NavLink
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                to="/favoritos"
+                to="/react-crud-post/favoritos"
                 className="md:p-4 py-2 block text-gray-300 hover:bg-gray-700 hover:text-white px-3 rounded-md text-sm font-medium"
               >
                 Favoritos :{" "}
