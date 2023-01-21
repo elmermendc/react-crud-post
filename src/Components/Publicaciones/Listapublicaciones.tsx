@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { seleccionarPostInicio } from "../../Redux/estados/InicioPost.estado";
 import { seleccionarPost } from "../../Redux/estados/Post.estado";
 import CardPublicacion from "./CardPublicacion";
-import { v4 as uuid } from "uuid";
+
 
 function Listapublicaciones() {
   const dataInicial = useSelector(seleccionarPostInicio);
@@ -16,9 +16,10 @@ function Listapublicaciones() {
       <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {dataInicial
           .map((post) => {
+            const uniq = new Date().getTime();
             return (
               <CardPublicacion
-                key={uuid()}
+                key={uniq}
                 post={post}
                 isIncluded={incluidos.includes(post)}
               />
