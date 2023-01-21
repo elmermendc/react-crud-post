@@ -2,7 +2,7 @@
 # CRUD en Typescript - React
 ![consumir-api](https://user-images.githubusercontent.com/118638694/213887335-ba350589-54d6-4703-88ec-067b8e5c3435.png)
 
-![consumir-api](https://user-images.githubusercontent.com/118638694/213887385-c2253c0c-8f7f-4ed5-a5ca-b8bbe618d8d3.png)
+![consumir-api](https://user-images.githubusercontent.com/118638694/213887777-9bfd2dfe-fd96-42fd-ad1c-314fd1af60f6.png)
  Posts que puedes agregar a favoritos
 ## Demo
 
