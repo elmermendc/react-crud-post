@@ -20,7 +20,7 @@ function Navegacion() {
         <div>
           <NavLink to="/react-crud-post/">
           <img
-            src="/logoposts.png"
+            src="/react-crud-post/logoposts.png"
             className="h-8"
           />
           </NavLink>
