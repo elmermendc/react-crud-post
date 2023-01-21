@@ -1,6 +1,6 @@
 
 # CRUD en Typescript - React
-![consumir-api](https://user-images.githubusercontent.com/118638694/213887335-ba350589-54d6-4703-88ec-067b8e5c3435.png)
+![consumir-api](https://user-images.githubusercontent.com/118638694/213887909-398c2559-2494-47c4-90ea-42682b1ee31e.png)
 
 ![consumir-api](https://user-images.githubusercontent.com/118638694/213887777-9bfd2dfe-fd96-42fd-ad1c-314fd1af60f6.png)
  Posts que puedes agregar a favoritos
