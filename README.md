@@ -4,11 +4,11 @@
 
 ![consumir-api](https://user-images.githubusercontent.com/118638694/213887777-9bfd2dfe-fd96-42fd-ad1c-314fd1af60f6.png)
  Posts que puedes agregar a favoritos
- Redux Toolkit
- react-router-dom
- axios
- React Icons
- Tailwindcss
+ * Redux Toolkit
+ * react-router-dom
+ * axios
+ * React Icons
+ * Tailwindcss
 ## Demo
 
 https://elmermendc.github.io/react-crud-post/
